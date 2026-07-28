@@ -1,0 +1,55 @@
+# .gitignore for this Java / Maven project
+# Purpose: instruct Git which files and directories to ignore so local
+# build artifacts, IDE settings, and temporary files are not committed.
+#
+# Common ignores: target build folder, IDE/editor files, OS files, logs.
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Local environment
+.env
+
+# JVM / bytecode
+*.class
+
+# Packaged artifacts
+*.jar
+
